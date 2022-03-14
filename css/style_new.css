@@ -179,6 +179,9 @@ a {
     color: #f2ecdc;
 }
 
+.blank {
+    padding: 50px;
+}
 
 #about_container {
     display: flex;
