@@ -192,7 +192,7 @@ a {
 }
 
 #about_content {
-    max-width: 40%;
+    max-width: 50%;
     padding: 2em;
     line-height: 1.6;
     margin: auto;
@@ -200,9 +200,14 @@ a {
 }
 
 #skills_title {
-    column-count: 2;
-    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding-left: 40%;
 }
+
 
 
 
@@ -210,7 +215,7 @@ a {
     list-style: none;
     font-size: 0.9em;
     text-align: left;
-    padding-left: 0;
+    flex: 100%;
 }
 
 .project-container {
