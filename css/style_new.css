@@ -13,6 +13,7 @@ a {
     margin-top: 3em;
 }
 
+
 .navbar {
     display: flex;
     width: 100%;
@@ -137,9 +138,12 @@ a {
         text-align: center;
         padding-bottom: 120px;
     }
+}
 
-
-
+@media screen and (max-width: 391px) {
+    #about_content {
+        min-width: 80%;
+    }
 }
 
 .home {
